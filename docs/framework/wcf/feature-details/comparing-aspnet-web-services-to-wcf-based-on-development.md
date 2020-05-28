@@ -303,7 +303,7 @@ public class Service : IEcho
  The internal behavior of service types can be adjusted using the properties of a family of classes called behaviors. Here, the <xref:System.ServiceModel.ServiceBehaviorAttribute> class is used to specify that the service type is to be multithreaded.  
   
 ```  
-[ServiceBehavior(ConcurrencyMode=ConcurrencyMode.Multiple]  
+[ServiceBehavior(ConcurrencyMode=ConcurrencyMode.Multiple)]  
 public class DerivativesCalculatorServiceType: IDerivativesCalculator  
 ```  
   
